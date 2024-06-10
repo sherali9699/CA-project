@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_2.srcs/sources_1/new/ALU_64_Bit.v" \
+"../../../../project_2.srcs/sources_1/new/ALU_Control.v" \
+"../../../../project_2.srcs/sources_1/new/Adder.v" \
+"../../../../project_2.srcs/sources_1/new/Control_Unit.v" \
+"../../../../project_2.srcs/sources_1/new/Data_Memory.v" \
+"../../../../project_2.srcs/sources_1/new/EX_MEM.v" \
+"../../../../project_2.srcs/sources_1/new/Forwarding_Unit.v" \
+"../../../../project_2.srcs/sources_1/new/ID_EX.v" \
+"../../../../project_2.srcs/sources_1/new/IF_ID.v" \
+"../../../../project_2.srcs/sources_1/new/Immediate_Generator.v" \
+"../../../../project_2.srcs/sources_1/new/Instruction_Memory.v" \
+"../../../../project_2.srcs/sources_1/new/Instruction_Parser.v" \
+"../../../../project_2.srcs/sources_1/new/MEM_WB.v" \
+"../../../../project_2.srcs/sources_1/new/Mux.v" \
+"../../../../project_2.srcs/sources_1/new/Mux_3x1.v" \
+"../../../../project_2.srcs/sources_1/new/Program_Counter.v" \
+"../../../../project_2.srcs/sources_1/new/Register_File.v" \
+"../../../../project_2.srcs/sources_1/new/Top.v" \
+"../../../../project_2.srcs/sources_1/new/hazard_detection_unit.v" \
+"../../../../project_2.srcs/sim_1/new/tb_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

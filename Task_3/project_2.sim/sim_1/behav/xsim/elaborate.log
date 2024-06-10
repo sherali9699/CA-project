@@ -1,0 +1,13 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 52c8d5e09da14a8ba183dd2511faf482 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'stall' on this module [D:/Sem4/CA/My_project/Task_3/project_2.srcs/sources_1/new/TOP.v:82]
+ERROR: [VRFC 10-3180] cannot find port 'stall' on this module [D:/Sem4/CA/My_project/Task_3/project_2.srcs/sources_1/new/TOP.v:85]
+ERROR: [VRFC 10-3180] cannot find port 'stall' on this module [D:/Sem4/CA/My_project/Task_3/project_2.srcs/sources_1/new/TOP.v:98]
+ERROR: [VRFC 10-3180] cannot find port 'clk' on this module [D:/Sem4/CA/My_project/Task_3/project_2.srcs/sources_1/new/TOP.v:144]
+ERROR: [VRFC 10-3180] cannot find port 'EM_addermuxselect' on this module [D:/Sem4/CA/My_project/Task_3/project_2.srcs/sources_1/new/TOP.v:155]
+ERROR: [VRFC 10-3180] cannot find port 'addermuxselect' on this module [D:/Sem4/CA/My_project/Task_3/project_2.srcs/sources_1/new/TOP.v:150]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
